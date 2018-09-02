@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package sizes
 
 import (
@@ -5,7 +10,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/github/git-sizer/git"
+	"github.com/sniperkit/snk.fork.github-git-sizer/git"
 )
 
 // PathResolver figures out a "reachability path" (i.e., Git

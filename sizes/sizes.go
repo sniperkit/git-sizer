@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package sizes
 
 import (
 	"fmt"
 
-	"github.com/github/git-sizer/counts"
-	"github.com/github/git-sizer/git"
+	"github.com/sniperkit/snk.fork.github-git-sizer/counts"
+	"github.com/sniperkit/snk.fork.github-git-sizer/git"
 )
 
 type Size interface {

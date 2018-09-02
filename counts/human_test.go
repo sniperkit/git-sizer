@@ -1,11 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package counts_test
 
 import (
 	"testing"
 
-	"github.com/github/git-sizer/counts"
-
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.github-git-sizer/counts"
 )
 
 type humanTest struct {

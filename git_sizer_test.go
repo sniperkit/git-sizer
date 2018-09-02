@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main_test
 
 import (
@@ -10,12 +15,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/github/git-sizer/counts"
-	"github.com/github/git-sizer/git"
-	"github.com/github/git-sizer/sizes"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/sniperkit/snk.fork.github-git-sizer/counts"
+	"github.com/sniperkit/snk.fork.github-git-sizer/git"
+	"github.com/sniperkit/snk.fork.github-git-sizer/sizes"
 )
 
 // Smoke test that the program runs.

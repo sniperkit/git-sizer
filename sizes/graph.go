@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package sizes
 
 import (
@@ -8,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/github/git-sizer/counts"
-	"github.com/github/git-sizer/git"
-	"github.com/github/git-sizer/meter"
+	"github.com/sniperkit/snk.fork.github-git-sizer/counts"
+	"github.com/sniperkit/snk.fork.github-git-sizer/git"
+	"github.com/sniperkit/snk.fork.github-git-sizer/meter"
 )
 
 func ScanRepositoryUsingGraph(

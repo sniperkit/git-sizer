@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package sizes
 
 import (
@@ -6,10 +11,10 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/github/git-sizer/counts"
-	"github.com/github/git-sizer/git"
-
 	"github.com/spf13/pflag"
+
+	"github.com/sniperkit/snk.fork.github-git-sizer/counts"
+	"github.com/sniperkit/snk.fork.github-git-sizer/git"
 )
 
 func (s BlobSize) String() string {

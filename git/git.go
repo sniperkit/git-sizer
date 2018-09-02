@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package git
 
 import (
@@ -14,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/github/git-sizer/counts"
+	"github.com/sniperkit/snk.fork.github-git-sizer/counts"
 )
 
 // The type of an object ("blob", "tree", "commit", "tag", "missing").

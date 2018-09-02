@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -9,11 +14,11 @@ import (
 	"runtime/pprof"
 	"strconv"
 
-	"github.com/github/git-sizer/git"
-	"github.com/github/git-sizer/isatty"
-	"github.com/github/git-sizer/sizes"
-
 	"github.com/spf13/pflag"
+
+	"github.com/sniperkit/snk.fork.github-git-sizer/git"
+	"github.com/sniperkit/snk.fork.github-git-sizer/isatty"
+	"github.com/sniperkit/snk.fork.github-git-sizer/sizes"
 )
 
 var ReleaseVersion string
